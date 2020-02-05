@@ -16,12 +16,12 @@
 .app-header nav {
   padding: 5px 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .app-header ul > a {
   color: black;
-  padding: 0.5rem;
+  padding: 10px;
   text-decoration: none;
 }
 .app-header ul > a:hover {
@@ -39,4 +39,10 @@
 }
 .app-header ul li {
   display: inline-block;
+}
+input[type='search'] {
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 25px;
+  width: 200px;
 }

@@ -22,6 +22,7 @@ function Header() {
               <li>Start Selling</li>
             </Link>
           </ul>
+          <SearchForm />
           <ul className="right">
             <Link to="/my-account">
               <li>Login/Register</li>
@@ -33,3 +34,12 @@ function Header() {
   );
 }
 export default Header;
+const SearchForm = () => {
+  return (
+    <>
+      <form onSubmit={e => e.preventDefault()}>
+        <input type="search" />
+      </form>
+    </>
+  );
+};
